@@ -3,49 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basit HTML Sayfası</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px 0;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 20px;
-        }
-    </style>
+    <meta name="author" content="Onur Altan Uyar">
+    <title>Onur Altan Uyar</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Hoş Geldiniz!</h1>
+        <div class="container">
+            <h1>Onur Altan Uyar</h1>
+            <p>Yazılım Geliştirici | Teknoloji Meraklısı</p>
+        </div>
     </header>
-    <main>
-        <h2>Basit HTML Sayfası</h2>
-        <p>Bu, basit bir HTML sayfası örneğidir.</p>
-        <img src="https://source.unsplash.com/random/400x300" alt="Rastgele Resim">
-    </main>
+
+    <section class="about">
+        <div class="container">
+            <h2>Hakkımda</h2>
+            <p>
+                Merhaba, ben Onur Altan Uyar. Yazılım geliştirme, teknoloji ve inovasyon konusunda tutkulu bir bireyim.
+                Farklı yazılım dillerinde deneyimim bulunmakta ve sürekli olarak kendimi geliştirmeye çalışıyorum.
+            </p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Yeteneklerim</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Git ve GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>İletişim</h2>
+            <p>Beni sosyal medyada takip edebilir veya aşağıdaki iletişim bilgileri ile bana ulaşabilirsiniz:</p>
+            <ul>
+                <li>Email: onuraltanuyar@example.com</li>
+                <li>Twitter: <a href="https://twitter.com/onuraltanuyar" target="_blank">onuraltanuyar</a></li>
+                <li>GitHub: <a href="https://github.com/onuraltanuyar" target="_blank">onuraltanuyar</a></li>
+            </ul>
+        </div>
+    </section>
+
     <footer>
-        <p>&copy; 2024 Basit HTML Sayfası. Tüm hakları saklıdır.</p>
+        <div class="container">
+            <p>© 2024 Onur Altan Uyar. Tüm hakları saklıdır.</p>
+        </div>
     </footer>
 </body>
 </html>
