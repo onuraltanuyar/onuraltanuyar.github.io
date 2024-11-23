@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basit HTML Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hoş Geldiniz!</h1>
+    </header>
+    <main>
+        <h2>Basit HTML Sayfası</h2>
+        <p>Bu, basit bir HTML sayfası örneğidir.</p>
+        <img src="https://source.unsplash.com/random/400x300" alt="Rastgele Resim">
+    </main>
+    <footer>
+        <p>&copy; 2024 Basit HTML Sayfası. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
